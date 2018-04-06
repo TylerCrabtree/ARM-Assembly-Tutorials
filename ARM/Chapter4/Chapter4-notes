@@ -1,0 +1,11 @@
+﻿Chapter 4 notes:
+
+gdb - used for debugging (not only for C/C++).
+Commands:
+	quit - exits debugger
+	start - sets breakpoint
+	disassemble - runs program up to main
+	disas – short for disassemble
+	info registers – depicts information of specific registers (r1 r1 …)
+	stepi – step into equivilent. 
+

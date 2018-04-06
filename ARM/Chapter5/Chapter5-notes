@@ -1,0 +1,31 @@
+Chapter5 notes:
+
+branch - creates/interprets different sequences of instructions 
+special register -r15 is a special register. Usually refered to as pc.
+pc - program counter
+ip - instruction pointer (another name for the pc) 
+Note: If instructions do not modify the pc, the pc is incremented by 4.
+      If the pc is modified, the counter is pc + 4
+cmp - used for branching, can act as a conditional case
+Note: Values of registers contain condition flags:
+	N - Negative
+	Z - Zero
+	C - Carry
+	V - Overflow
+	
+
+EQ - used for equal (z is 1, Z is enabled)
+NE - not equal (z is 0, Z is disabled)
+GE - greater or equal (V and N are enabled or disabled)
+LT - lower than (V and N are both not enabled or disabled)
+GT - greater than (Z is 0 and N is V, Z is disabled, N and V are either both enabled/disabled)
+LE - lower or equal (Z is 1. If not N is V, Z is enabled)
+MI - minus or negative (N is 1 N is enabled)
+PL - plus (N is 0 and enabled)
+VS - overflow is set (V is 1 V is enabled)
+VC - overflow is clear (V is 0 V is disabled)
+HI - higher (C is 1 and Z is 0 and C is enabled)
+LS - lower or same (C is 0 or Z is 1 C is disabled and Z is enabled)
+CS/HS - Carry set or same (C is 1 and C is enabled)
+CC/LO - carry clear or lower (C is 0 and disabled) 
+

@@ -1,0 +1,11 @@
+Chapter 3 notes:
+
+Labels - in the assembler are symbolic names to addresses in a program.
+.balign 4 - ensures that the next address will start a 4-byte boundary.
+	    possibly creates padding bytes. 
+.data - This section allows allows modification to data/variables.
+myvar1 - represents a relocaton of the variable (load01.s).
+Load/Store - different manners to compute an address
+Patching - the address of 'addr_of_myvar1' is pathched during the linking 
+	   phase (when creating the executable)
+

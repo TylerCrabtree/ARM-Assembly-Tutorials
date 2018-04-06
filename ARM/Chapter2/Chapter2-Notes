@@ -1,0 +1,5 @@
+Chapter 2 notes:
+
+ARM processor - Raspberry Pi has 16 integer and 32 floating point registers.
+16 Integer Registers - ARM names these has names r0 to r15
+
